@@ -50,7 +50,7 @@ function App() {
   }, [])
 
   return (
-    <BrowserRouter basename="/Shreesha_Resume-main">
+    <BrowserRouter>
       <ScrollToHash />
       <div className="min-h-screen">
         <Navbar isScrolled={isScrolled} />
